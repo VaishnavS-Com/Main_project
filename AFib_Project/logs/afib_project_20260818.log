@@ -1,0 +1,37 @@
+2026-08-18 10:23:32 | INFO | quality_gate | Loaded 219 Noise predictions from C:\vaishnav\projects\Main_Project\AFib_Project\data\features\noise_fp_context_xgb.csv
+2026-08-18 10:23:32 | INFO | quality_gate | Loaded feature matrix: 1602 rows
+2026-08-18 10:23:32 | INFO | quality_gate | Loaded OOF predictions: 1600 rows
+2026-08-18 10:23:32 | INFO | quality_gate | Quality scores computed. Range: [0.050, 0.988]
+2026-08-18 10:24:14 | INFO | quality_gate | Loaded 219 Noise predictions from C:\vaishnav\projects\Main_Project\AFib_Project\data\features\noise_fp_context_xgb.csv
+2026-08-18 10:24:14 | INFO | quality_gate | Loaded feature matrix: 1602 rows
+2026-08-18 10:24:14 | INFO | quality_gate | Loaded OOF predictions: 1600 rows
+2026-08-18 10:24:14 | INFO | quality_gate | Quality scores computed. Range: [0.050, 0.988]
+2026-08-18 10:24:14 | INFO | quality_gate | Score separation check:
+2026-08-18 10:24:14 | INFO | quality_gate |   AF       median quality = 0.600
+2026-08-18 10:24:14 | INFO | quality_gate |   NSR      median quality = 0.856
+2026-08-18 10:24:14 | INFO | quality_gate |   Noise    median quality = 0.600
+2026-08-18 10:24:14 | INFO | quality_gate |   Other    median quality = 0.615
+2026-08-18 10:24:14 | INFO | quality_gate |   Noise vs AF  Mann-Whitney p = nan  (significant: False)
+2026-08-18 10:24:14 | INFO | quality_gate |   Noise vs NSR Mann-Whitney p = nan  (significant: False)
+2026-08-18 10:24:14 | WARNING | quality_gate | GATE USELESS: quality score does not separate Noise from AF. Revise the score formula before running the threshold sweep.
+2026-08-18 10:24:14 | INFO | quality_gate | Score histogram saved -> C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\quality_gate_scores.png
+2026-08-18 10:25:41 | INFO | quality_gate | Loaded 219 Noise predictions from C:\vaishnav\projects\Main_Project\AFib_Project\data\features\noise_fp_context_xgb.csv
+2026-08-18 10:25:41 | INFO | quality_gate | Loaded feature matrix: 1602 rows
+2026-08-18 10:25:41 | INFO | quality_gate | Loaded OOF predictions: 1600 rows
+2026-08-18 10:25:41 | INFO | quality_gate | Quality scores computed. Range: [0.123, 1.000]
+2026-08-18 10:25:41 | INFO | quality_gate | Score separation check:
+2026-08-18 10:25:41 | INFO | quality_gate |   AF       median quality = 0.860
+2026-08-18 10:25:41 | INFO | quality_gate |   NSR      median quality = 1.000
+2026-08-18 10:25:41 | INFO | quality_gate |   Noise    median quality = 0.564
+2026-08-18 10:25:41 | INFO | quality_gate |   Other    median quality = 0.905
+2026-08-18 10:25:41 | INFO | quality_gate |   Noise vs AF  Mann-Whitney p = 0.0000  (significant: True)
+2026-08-18 10:25:41 | INFO | quality_gate |   Noise vs NSR Mann-Whitney p = 0.0000  (significant: True)
+2026-08-18 10:25:42 | INFO | quality_gate | Score histogram saved -> C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\quality_gate_scores.png
+2026-08-18 10:25:42 | INFO | quality_gate | Sweep results saved -> C:\vaishnav\projects\Main_Project\AFib_Project\data\features\quality_gate_results.csv
+2026-08-18 10:25:42 | INFO | quality_gate | Operating curve saved -> C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\quality_gate_curve.png
+2026-08-18 11:09:09 | INFO | pr_curves | SVM (RBF): AP=0.9261  AUC=0.9375
+2026-08-18 11:09:09 | INFO | pr_curves | XGBoost: AP=0.8948  AUC=0.9279
+2026-08-18 11:09:09 | WARNING | pr_curves | No out-of-fold file for 'logreg' (/sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/data/features/oof_predictions_logreg.csv)
+2026-08-18 11:09:09 | INFO | pr_curves | PR curve figure saved -> /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/pr_curves.png
+2026-08-18 11:09:09 | WARNING | pr_curves | No out-of-fold file for 'logreg' (/sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/data/features/oof_predictions_logreg.csv)
+2026-08-18 11:09:09 | INFO | pr_curves | Pooled comparison saved -> /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/data/features/model_comparison_pooled.csv

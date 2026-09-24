@@ -1,0 +1,14 @@
+{
+  "selected_features": [
+    "pNN50",
+    "MCVNN",
+    "CVNN",
+    "ShannonEn",
+    "pNN20",
+    "IQRNN",
+    "MadNN",
+    "SD1",
+    "RMSSD",
+    "SDNN"
+  ]
+}

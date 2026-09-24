@@ -1,0 +1,386 @@
+2026-08-06 14:31:00 | INFO | dataset_index | Scanning 24 subjects for annotations
+2026-08-06 14:31:14 | INFO | dataset_index | Built index: 1602 segments from 23 subjects
+2026-08-06 14:31:14 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 14:33:48 | INFO | dataset_index | Scanning 24 subjects for annotations
+2026-08-06 14:34:07 | INFO | dataset_index | Built index: 1602 segments from 23 subjects
+2026-08-06 14:34:07 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 14:36:01 | INFO | Phase04_Dataset_EDA | Saved /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/Phase04_Class_Distribution.png
+2026-08-06 14:36:02 | INFO | Phase04_Dataset_EDA | Saved /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/Phase04_Example_Waveforms.png
+2026-08-06 14:36:49 | INFO | Phase04_Dataset_EDA | Saved /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/Phase04_Class_Distribution.png
+2026-08-06 14:36:52 | INFO | Phase04_Dataset_EDA | Saved /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/Phase04_Example_Waveforms.png
+2026-08-06 14:47:24 | INFO | Phase04_Dataset_EDA | Saved /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/Phase04_Class_Distribution.png
+2026-08-06 15:04:35 | INFO | main | ================================================================
+2026-08-06 15:04:35 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:04:35 | INFO | main | ================================================================
+2026-08-06 15:04:35 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:04:35 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:05:02 | INFO | main | ================================================================
+2026-08-06 15:05:02 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:05:02 | INFO | main | ================================================================
+2026-08-06 15:05:02 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:05:02 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:05:02 | INFO | main | Phase 1 done in 0.1 s
+2026-08-06 15:05:02 | INFO | main | ================================================================
+2026-08-06 15:05:02 | INFO | main | PHASE 2: ECG Preprocessing Demo
+2026-08-06 15:05:02 | INFO | main | ================================================================
+2026-08-06 15:05:38 | INFO | dataset_index | Scanning 24 subjects for annotations
+2026-08-06 15:05:41 | INFO | dataset_index | Built index: 1602 segments from 23 subjects
+2026-08-06 15:05:41 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:05:52 | INFO | main | ================================================================
+2026-08-06 15:05:52 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:05:52 | INFO | main | ================================================================
+2026-08-06 15:05:52 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:05:53 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:05:53 | INFO | main | Phase 1 done in 0.0 s
+2026-08-06 15:05:53 | INFO | main | ================================================================
+2026-08-06 15:05:53 | INFO | main | PHASE 2: ECG Preprocessing Demo
+2026-08-06 15:05:53 | INFO | main | ================================================================
+2026-08-06 15:05:56 | INFO | main | Phase 2 done in 3.1 s
+2026-08-06 15:06:09 | INFO | main | ================================================================
+2026-08-06 15:06:09 | INFO | main | PHASE 3: HRV Feature Extraction
+2026-08-06 15:06:09 | INFO | main | ================================================================
+2026-08-06 15:06:10 | INFO | feature_pipeline | Loading segment index from C:\vaishnav\projects\Main_Project\AFib_Project\data\processed\segment_index.csv
+2026-08-06 15:06:10 | INFO | feature_pipeline | Segment index loaded: 1602 rows
+2026-08-06 15:06:10 | INFO | feature_pipeline | Processing 1602 segments…
+2026-08-06 15:06:12 | INFO | feature_pipeline | Progress: 100/1602 | OK=98 fail=2 | ~1 min remaining
+2026-08-06 15:06:13 | INFO | feature_pipeline | Progress: 200/1602 | OK=198 fail=2 | ~0 min remaining
+2026-08-06 15:06:14 | INFO | feature_pipeline | Progress: 300/1602 | OK=283 fail=17 | ~0 min remaining
+2026-08-06 15:06:15 | INFO | feature_pipeline | Progress: 400/1602 | OK=349 fail=51 | ~0 min remaining
+2026-08-06 15:06:16 | INFO | feature_pipeline | Progress: 500/1602 | OK=410 fail=90 | ~0 min remaining
+2026-08-06 15:06:17 | INFO | feature_pipeline | Progress: 600/1602 | OK=493 fail=107 | ~0 min remaining
+2026-08-06 15:06:18 | INFO | feature_pipeline | Progress: 700/1602 | OK=586 fail=114 | ~0 min remaining
+2026-08-06 15:06:19 | INFO | feature_pipeline | Progress: 800/1602 | OK=686 fail=114 | ~0 min remaining
+2026-08-06 15:06:20 | INFO | feature_pipeline | Progress: 900/1602 | OK=786 fail=114 | ~0 min remaining
+2026-08-06 15:06:21 | INFO | feature_pipeline | Progress: 1000/1602 | OK=865 fail=135 | ~0 min remaining
+2026-08-06 15:06:22 | INFO | feature_pipeline | Progress: 1100/1602 | OK=956 fail=144 | ~0 min remaining
+2026-08-06 15:06:23 | INFO | feature_pipeline | Progress: 1200/1602 | OK=1033 fail=167 | ~0 min remaining
+2026-08-06 15:06:24 | INFO | feature_pipeline | Progress: 1300/1602 | OK=1085 fail=215 | ~0 min remaining
+2026-08-06 15:06:25 | INFO | feature_pipeline | Progress: 1400/1602 | OK=1175 fail=225 | ~0 min remaining
+2026-08-06 15:06:26 | INFO | feature_pipeline | Progress: 1500/1602 | OK=1257 fail=243 | ~0 min remaining
+2026-08-06 15:06:27 | INFO | feature_pipeline | Progress: 1600/1602 | OK=1345 fail=255 | ~0 min remaining
+2026-08-06 15:06:27 | INFO | feature_pipeline | Feature matrix saved → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\hrv_features.csv  (1602 rows, 20 features)
+2026-08-06 15:06:27 | INFO | feature_pipeline | Feature pipeline complete in 0.3 min | OK=1347 fail=255 (15.9%)
+2026-08-06 15:06:27 | INFO | main | Phase 3 done in 0.3 min
+2026-08-06 15:06:53 | INFO | main | ================================================================
+2026-08-06 15:06:53 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:06:53 | INFO | main | ================================================================
+2026-08-06 15:06:53 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:06:53 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:06:53 | INFO | main | Phase 1 done in 0.1 s
+2026-08-06 15:06:53 | INFO | main | Feature matrix loaded from disk (1602 rows)
+2026-08-06 15:06:53 | INFO | main | ================================================================
+2026-08-06 15:06:53 | INFO | main | PHASE 4: MRMR Feature Selection
+2026-08-06 15:06:53 | INFO | main | ================================================================
+2026-08-06 15:06:55 | INFO | mrmr_selector | MRMR using 1185 clean segments
+2026-08-06 15:06:56 | INFO | mrmr_selector | Using mrmr-selection library
+2026-08-06 15:07:07 | INFO | mrmr_selector | MRMR selected 20 features: ['CVNN', 'ApEn', 'MCVNN', 'SD1', 'MeanNN', 'pNN20', 'SDNN', 'MadNN', 'MedNN', 'pNN50', 'RMSSD', 'PAS', 'SD2', 'IQRNN', 'IALS', 'SD1_SD2', 'PSS', 'ShannonEn', 'SampEn', 'PIP']
+2026-08-06 15:07:07 | INFO | mrmr_selector | MRMR selection saved → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\selected_features.json
+2026-08-06 15:07:07 | INFO | mrmr_selector | MRMR report saved    → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\mrmr_report.csv
+2026-08-06 15:07:07 | INFO | main | Phase 4 done in 13.4 s
+2026-08-06 15:07:07 | INFO | main | ================================================================
+2026-08-06 15:07:07 | INFO | main | PHASE 5: SVM Training + Cross-Validation
+2026-08-06 15:07:07 | INFO | main | ================================================================
+2026-08-06 15:07:07 | INFO | train_svm | Training data: 1185 clean segments
+2026-08-06 15:07:10 | INFO | train_svm | Fold 1: SMOTE 371 → 577 AF samples
+2026-08-06 15:07:11 | INFO | train_svm | Fold 1 | Acc=0.730 F1=0.807 AUC=0.804 Sen=0.728 Spe=0.736
+2026-08-06 15:07:11 | INFO | train_svm | Fold 2: SMOTE 528 → 528 AF samples
+2026-08-06 15:07:11 | INFO | train_svm | Fold 2 | Acc=0.925 F1=0.609 AUC=0.918 Sen=0.519 Spe=0.977
+2026-08-06 15:07:11 | INFO | train_svm | Fold 3: SMOTE 553 → 553 AF samples
+2026-08-06 15:07:11 | INFO | train_svm | Fold 3 | Acc=0.806 F1=0.080 AUC=0.898 Sen=1.000 Spe=0.804
+2026-08-06 15:07:11 | INFO | train_svm | Fold 4: SMOTE 399 → 551 AF samples
+2026-08-06 15:07:11 | INFO | train_svm | Fold 4 | Acc=0.864 F1=0.893 AUC=0.929 Sen=0.859 Spe=0.873
+2026-08-06 15:07:11 | INFO | train_svm | Fold 5: SMOTE 369 → 581 AF samples
+2026-08-06 15:07:11 | INFO | train_svm | Fold 5 | Acc=0.762 F1=0.828 AUC=0.914 Sen=0.726 Spe=0.898
+2026-08-06 15:07:11 | INFO | train_svm | Final SVM saved → C:\vaishnav\projects\Main_Project\AFib_Project\models\svm_final.joblib
+2026-08-06 15:07:11 | INFO | main | Phase 5 done in 0.1 min
+2026-08-06 15:07:11 | INFO | main | ================================================================
+2026-08-06 15:07:11 | INFO | main | PHASE 6: XGBoost Training + Cross-Validation
+2026-08-06 15:07:11 | INFO | main | ================================================================
+2026-08-06 15:07:13 | INFO | train_xgboost | XGB Fold 1 | Acc=0.624 F1=0.702 AUC=0.809 Sen=0.571 Spe=0.811
+2026-08-06 15:07:14 | INFO | train_xgboost | XGB Fold 2 | Acc=0.950 F1=0.760 AUC=0.935 Sen=0.704 Spe=0.981
+2026-08-06 15:07:14 | INFO | train_xgboost | XGB Fold 3 | Acc=0.814 F1=0.083 AUC=0.885 Sen=1.000 Spe=0.813
+2026-08-06 15:07:14 | INFO | train_xgboost | XGB Fold 4 | Acc=0.838 F1=0.873 AUC=0.900 Sen=0.840 Spe=0.835
+2026-08-06 15:07:14 | INFO | train_xgboost | XGB Fold 5 | Acc=0.770 F1=0.836 AUC=0.903 Sen=0.742 Spe=0.878
+2026-08-06 15:07:48 | INFO | main | ================================================================
+2026-08-06 15:07:48 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:07:48 | INFO | main | ================================================================
+2026-08-06 15:07:48 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:07:48 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:07:48 | INFO | main | Phase 1 done in 0.1 s
+2026-08-06 15:07:48 | INFO | main | Feature matrix loaded from disk (1602 rows)
+2026-08-06 15:07:50 | INFO | main | ================================================================
+2026-08-06 15:07:50 | INFO | main | PHASE 6: XGBoost Training + Cross-Validation
+2026-08-06 15:07:50 | INFO | main | ================================================================
+2026-08-06 15:07:52 | INFO | train_xgboost | XGB Fold 1 | Acc=0.624 F1=0.702 AUC=0.809 Sen=0.571 Spe=0.811
+2026-08-06 15:07:52 | INFO | train_xgboost | XGB Fold 2 | Acc=0.950 F1=0.760 AUC=0.935 Sen=0.704 Spe=0.981
+2026-08-06 15:07:52 | INFO | train_xgboost | XGB Fold 3 | Acc=0.814 F1=0.083 AUC=0.885 Sen=1.000 Spe=0.813
+2026-08-06 15:07:52 | INFO | train_xgboost | XGB Fold 4 | Acc=0.838 F1=0.873 AUC=0.900 Sen=0.840 Spe=0.835
+2026-08-06 15:07:52 | INFO | train_xgboost | XGB Fold 5 | Acc=0.770 F1=0.836 AUC=0.903 Sen=0.742 Spe=0.878
+2026-08-06 15:07:52 | INFO | train_xgboost | Final XGBoost saved → C:\vaishnav\projects\Main_Project\AFib_Project\models\xgb_final.joblib
+2026-08-06 15:07:52 | INFO | train_xgboost | Feature importance saved → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\xgb_feature_importance.csv
+2026-08-06 15:07:52 | INFO | main | Phase 6 done in 0.0 min
+2026-08-06 15:07:52 | INFO | main | ================================================================
+2026-08-06 15:07:52 | INFO | main | PHASE 7: Evaluation
+2026-08-06 15:07:52 | INFO | main | ================================================================
+2026-08-06 15:07:55 | INFO | metrics | ROC figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\roc_curves.png
+2026-08-06 15:07:55 | INFO | metrics | Confusion matrix saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\confusion_matrix_svm.png
+2026-08-06 15:07:55 | INFO | metrics | Confusion matrix saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\confusion_matrix_xgb.png
+2026-08-06 15:07:55 | INFO | metrics | Feature importance figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\feature_importance.png
+2026-08-06 15:07:56 | INFO | metrics | CV comparison figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\cv_metrics_comparison.png
+2026-08-06 15:07:56 | INFO | main | Phase 7 done in 3.1 s
+2026-08-06 15:07:56 | INFO | main | ================================================================
+2026-08-06 15:07:56 | INFO | main | PHASE 8: Context-Aware False Positive Analysis
+2026-08-06 15:07:56 | INFO | main | ================================================================
+2026-08-06 15:07:56 | INFO | fp_analysis | FP analysis: 630 NSR segments, 77 FPs (12.2%)
+2026-08-06 15:07:56 | INFO | fp_analysis | FP-by-activity figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\fp_by_activity_xgboost.png
+2026-08-06 15:08:58 | INFO | main | ================================================================
+2026-08-06 15:08:58 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:08:58 | INFO | main | ================================================================
+2026-08-06 15:08:58 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:08:58 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:08:58 | INFO | main | Phase 1 done in 0.0 s
+2026-08-06 15:08:58 | INFO | main | ================================================================
+2026-08-06 15:08:58 | INFO | main | PHASE 8: Context-Aware False Positive Analysis
+2026-08-06 15:08:58 | INFO | main | ================================================================
+2026-08-06 15:09:00 | INFO | fp_analysis | FP analysis: 630 NSR segments, 77 FPs (12.2%)
+2026-08-06 15:09:01 | INFO | fp_analysis | FP-by-activity figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\fp_by_activity_xgboost.png
+2026-08-06 15:09:01 | INFO | fp_analysis | MAI vs FP figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\mai_vs_fp_xgboost.png
+2026-08-06 15:09:01 | INFO | main | Phase 8 done in 2.9 s
+2026-08-06 15:10:54 | INFO | main | ================================================================
+2026-08-06 15:10:54 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:10:54 | INFO | main | ================================================================
+2026-08-06 15:10:54 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:10:54 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:10:54 | INFO | main | Phase 1 done in 0.1 s
+2026-08-06 15:10:54 | INFO | main | ================================================================
+2026-08-06 15:10:54 | INFO | main | PHASE 8: Context-Aware False Positive Analysis
+2026-08-06 15:10:54 | INFO | main | ================================================================
+2026-08-06 15:10:56 | INFO | fp_analysis | FP analysis: 630 NSR segments, 77 FPs (12.2%)
+2026-08-06 15:12:29 | INFO | fp_analysis | FP-by-activity figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\fp_by_activity_xgboost.png
+2026-08-06 15:12:30 | INFO | fp_analysis | MAI vs FP figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\mai_vs_fp_xgboost.png
+2026-08-06 15:12:30 | INFO | main | Phase 8 done in 95.8 s
+2026-08-06 15:17:42 | INFO | main | ================================================================
+2026-08-06 15:17:42 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:17:42 | INFO | main | ================================================================
+2026-08-06 15:17:42 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:17:43 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:17:43 | INFO | main | Phase 1 done in 0.4 s
+2026-08-06 15:17:43 | INFO | main | ================================================================
+2026-08-06 15:17:43 | INFO | main | PHASE 3: HRV Feature Extraction
+2026-08-06 15:17:43 | INFO | main | ================================================================
+2026-08-06 15:17:44 | INFO | feature_pipeline | Loading segment index from /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/data/processed/segment_index.csv
+2026-08-06 15:17:44 | INFO | feature_pipeline | Segment index loaded: 1602 rows
+2026-08-06 15:17:44 | INFO | feature_pipeline | Resuming: 1602 segments already processed, 0 remaining
+2026-08-06 15:17:44 | INFO | feature_pipeline | Processing 0 segments…
+2026-08-06 15:17:45 | INFO | feature_pipeline | Feature matrix saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/data/features/hrv_features.csv  (1602 rows, 20 features)
+2026-08-06 15:17:45 | INFO | feature_pipeline | Feature pipeline complete in 0.0 min | OK=0 fail=0 (0.0%)
+2026-08-06 15:17:45 | INFO | main | Phase 3 done in 0.0 min
+2026-08-06 15:17:45 | INFO | main | ================================================================
+2026-08-06 15:17:45 | INFO | main | PHASE 4: MRMR Feature Selection
+2026-08-06 15:17:45 | INFO | main | ================================================================
+2026-08-06 15:17:46 | INFO | main | Found existing selection — loading from disk
+2026-08-06 15:17:46 | INFO | main | ================================================================
+2026-08-06 15:17:46 | INFO | main | PHASE 5: SVM Training + Cross-Validation
+2026-08-06 15:17:46 | INFO | main | ================================================================
+2026-08-06 15:17:46 | INFO | train_svm | Training data: 1185 clean segments
+2026-08-06 15:17:46 | INFO | train_svm | Fold 1: SMOTE 371 → 577 AF samples
+2026-08-06 15:17:47 | INFO | train_svm | Fold 1 | Acc=0.730 F1=0.807 AUC=0.804 Sen=0.728 Spe=0.736
+2026-08-06 15:17:47 | INFO | train_svm | Fold 2: SMOTE 555 → 555 AF samples
+2026-08-06 15:17:47 | INFO | train_svm | Fold 2 | Acc=0.917 F1=0.000 AUC=nan Sen=0.000 Spe=0.917
+2026-08-06 15:17:47 | INFO | train_svm | Fold 3: SMOTE 553 → 553 AF samples
+2026-08-06 15:17:47 | INFO | train_svm | Fold 3 | Acc=0.840 F1=0.095 AUC=0.911 Sen=1.000 Spe=0.838
+2026-08-06 15:17:47 | INFO | train_svm | Fold 4: SMOTE 399 → 551 AF samples
+2026-08-06 15:17:47 | INFO | train_svm | Fold 4 | Acc=0.864 F1=0.893 AUC=0.929 Sen=0.859 Spe=0.873
+2026-08-06 15:17:47 | INFO | train_svm | Fold 5: SMOTE 342 → 608 AF samples
+2026-08-06 15:17:47 | INFO | train_svm | Fold 5 | Acc=0.702 F1=0.809 AUC=0.792 Sen=0.695 Spe=0.773
+2026-08-06 15:17:47 | INFO | train_svm | Final SVM saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/models/svm_final.joblib
+2026-08-06 15:17:47 | INFO | main | Phase 5 done in 0.0 min
+2026-08-06 15:17:47 | INFO | main | ================================================================
+2026-08-06 15:17:47 | INFO | main | PHASE 6: XGBoost Training + Cross-Validation
+2026-08-06 15:17:47 | INFO | main | ================================================================
+2026-08-06 15:17:48 | INFO | train_xgboost | XGB Fold 1 | Acc=0.650 F1=0.726 AUC=0.811 Sen=0.598 Spe=0.830
+2026-08-06 15:17:48 | INFO | train_xgboost | XGB Fold 2 | Acc=0.929 F1=0.000 AUC=nan Sen=0.000 Spe=0.929
+2026-08-06 15:17:48 | INFO | train_xgboost | XGB Fold 3 | Acc=0.869 F1=0.114 AUC=0.898 Sen=1.000 Spe=0.868
+2026-08-06 15:17:48 | INFO | train_xgboost | XGB Fold 4 | Acc=0.830 F1=0.866 AUC=0.906 Sen=0.827 Spe=0.835
+2026-08-06 15:17:48 | INFO | train_xgboost | XGB Fold 5 | Acc=0.706 F1=0.812 AUC=0.758 Sen=0.700 Spe=0.773
+2026-08-06 15:17:48 | INFO | train_xgboost | Final XGBoost saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/models/xgb_final.joblib
+2026-08-06 15:17:48 | INFO | train_xgboost | Feature importance saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/data/features/xgb_feature_importance.csv
+2026-08-06 15:17:48 | INFO | main | Phase 6 done in 0.0 min
+2026-08-06 15:17:48 | INFO | main | ================================================================
+2026-08-06 15:17:48 | INFO | main | PHASE 7: Evaluation
+2026-08-06 15:17:48 | INFO | main | ================================================================
+2026-08-06 15:17:50 | INFO | metrics | ROC figure saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/roc_curves.png
+2026-08-06 15:17:50 | INFO | metrics | Confusion matrix saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/confusion_matrix_svm.png
+2026-08-06 15:17:50 | INFO | metrics | Confusion matrix saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/confusion_matrix_xgb.png
+2026-08-06 15:17:50 | INFO | metrics | Feature importance figure saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/feature_importance.png
+2026-08-06 15:17:51 | INFO | metrics | CV comparison figure saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/cv_metrics_comparison.png
+2026-08-06 15:17:51 | INFO | main | Phase 7 done in 2.4 s
+2026-08-06 15:17:51 | INFO | main | ================================================================
+2026-08-06 15:17:51 | INFO | main | PHASE 8: Context-Aware False Positive Analysis
+2026-08-06 15:17:51 | INFO | main | ================================================================
+2026-08-06 15:17:51 | INFO | fp_analysis | FP analysis: 630 NSR segments, 75 FPs (11.9%)
+2026-08-06 15:17:51 | INFO | fp_analysis | FP-by-activity figure saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/fp_by_activity_xgboost.png
+2026-08-06 15:17:52 | INFO | fp_analysis | MAI vs FP figure saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/reports/figures/mai_vs_fp_xgboost.png
+2026-08-06 15:17:52 | INFO | main | Phase 8 done in 0.9 s
+2026-08-06 15:19:33 | INFO | feature_pipeline | Loading segment index from /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/data/processed/segment_index.csv
+2026-08-06 15:19:33 | INFO | feature_pipeline | Segment index loaded: 1602 rows
+2026-08-06 15:19:33 | INFO | feature_pipeline | Processing 1602 segments…
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 100/1602 | OK=0 fail=100 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 200/1602 | OK=0 fail=200 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 300/1602 | OK=0 fail=300 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 400/1602 | OK=0 fail=400 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 500/1602 | OK=0 fail=500 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 600/1602 | OK=0 fail=600 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 700/1602 | OK=0 fail=700 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 800/1602 | OK=0 fail=800 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 900/1602 | OK=0 fail=900 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 1000/1602 | OK=0 fail=1000 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 1100/1602 | OK=0 fail=1100 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 1200/1602 | OK=0 fail=1200 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 1300/1602 | OK=0 fail=1300 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 1400/1602 | OK=0 fail=1400 | ~0 min remaining
+2026-08-06 15:19:33 | INFO | feature_pipeline | Progress: 1500/1602 | OK=0 fail=1500 | ~0 min remaining
+2026-08-06 15:19:34 | INFO | feature_pipeline | Progress: 1600/1602 | OK=0 fail=1600 | ~0 min remaining
+2026-08-06 15:19:34 | INFO | feature_pipeline | Feature matrix saved → /sessions/gracious-eager-dirac/mnt/Main_Project/AFib_Project/data/features/hrv_features.csv  (1602 rows, 20 features)
+2026-08-06 15:19:34 | INFO | feature_pipeline | Feature pipeline complete in 0.0 min | OK=0 fail=1602 (100.0%)
+2026-08-06 15:29:07 | INFO | feature_pipeline | Loading segment index from C:\vaishnav\projects\Main_Project\AFib_Project\data\processed\segment_index.csv
+2026-08-06 15:29:07 | INFO | feature_pipeline | Segment index loaded: 1602 rows
+2026-08-06 15:29:07 | INFO | feature_pipeline | Processing 1602 segments…
+2026-08-06 15:29:09 | INFO | feature_pipeline | Progress: 100/1602 | OK=100 fail=0 | ~1 min remaining
+2026-08-06 15:29:10 | INFO | feature_pipeline | Progress: 200/1602 | OK=200 fail=0 | ~0 min remaining
+2026-08-06 15:29:11 | INFO | feature_pipeline | Progress: 300/1602 | OK=299 fail=1 | ~0 min remaining
+2026-08-06 15:29:12 | INFO | feature_pipeline | Progress: 400/1602 | OK=399 fail=1 | ~0 min remaining
+2026-08-06 15:29:13 | INFO | feature_pipeline | Progress: 500/1602 | OK=499 fail=1 | ~0 min remaining
+2026-08-06 15:29:13 | INFO | feature_pipeline | Progress: 600/1602 | OK=599 fail=1 | ~0 min remaining
+2026-08-06 15:29:14 | INFO | feature_pipeline | Progress: 700/1602 | OK=699 fail=1 | ~0 min remaining
+2026-08-06 15:29:15 | INFO | feature_pipeline | Progress: 800/1602 | OK=799 fail=1 | ~0 min remaining
+2026-08-06 15:29:16 | INFO | feature_pipeline | Progress: 900/1602 | OK=899 fail=1 | ~0 min remaining
+2026-08-06 15:29:17 | INFO | feature_pipeline | Progress: 1000/1602 | OK=998 fail=2 | ~0 min remaining
+2026-08-06 15:29:18 | INFO | feature_pipeline | Progress: 1100/1602 | OK=1098 fail=2 | ~0 min remaining
+2026-08-06 15:29:19 | INFO | feature_pipeline | Progress: 1200/1602 | OK=1198 fail=2 | ~0 min remaining
+2026-08-06 15:29:19 | INFO | feature_pipeline | Progress: 1300/1602 | OK=1298 fail=2 | ~0 min remaining
+2026-08-06 15:29:20 | INFO | feature_pipeline | Progress: 1400/1602 | OK=1398 fail=2 | ~0 min remaining
+2026-08-06 15:29:21 | INFO | feature_pipeline | Progress: 1500/1602 | OK=1498 fail=2 | ~0 min remaining
+2026-08-06 15:29:22 | INFO | feature_pipeline | Progress: 1600/1602 | OK=1598 fail=2 | ~0 min remaining
+2026-08-06 15:29:22 | INFO | feature_pipeline | Feature matrix saved → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\hrv_features.csv  (1602 rows, 20 features)
+2026-08-06 15:29:22 | INFO | feature_pipeline | Feature pipeline complete in 0.3 min | OK=1600 fail=2 (0.1%)
+2026-08-06 15:29:26 | INFO | main | ================================================================
+2026-08-06 15:29:26 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:29:26 | INFO | main | ================================================================
+2026-08-06 15:29:26 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:29:26 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:29:26 | INFO | main | Phase 1 done in 0.1 s
+2026-08-06 15:29:26 | INFO | main | Feature matrix loaded from disk (1602 rows)
+2026-08-06 15:29:26 | INFO | main | ================================================================
+2026-08-06 15:29:26 | INFO | main | PHASE 4: MRMR Feature Selection
+2026-08-06 15:29:26 | INFO | main | ================================================================
+2026-08-06 15:29:28 | INFO | main | Found existing selection — loading from disk
+2026-08-06 15:29:28 | INFO | main | ================================================================
+2026-08-06 15:29:28 | INFO | main | PHASE 5: SVM Training + Cross-Validation
+2026-08-06 15:29:28 | INFO | main | ================================================================
+2026-08-06 15:29:28 | INFO | train_svm | Training data: 1381 clean segments
+2026-08-06 15:29:30 | INFO | train_svm | Fold 1: SMOTE 562 → 562 AF samples
+2026-08-06 15:29:31 | INFO | train_svm | Fold 1 | Acc=0.736 F1=0.790 AUC=0.784 Sen=0.741 Spe=0.725
+2026-08-06 15:29:31 | INFO | train_svm | Fold 2: SMOTE 562 → 562 AF samples
+2026-08-06 15:29:31 | INFO | train_svm | Fold 2 | Acc=0.942 F1=0.956 AUC=0.982 Sen=0.935 Spe=0.957
+2026-08-06 15:29:31 | INFO | train_svm | Fold 3: SMOTE 601 → 601 AF samples
+2026-08-06 15:29:31 | INFO | train_svm | Fold 3 | Acc=0.891 F1=0.888 AUC=0.973 Sen=0.815 Spe=0.977
+2026-08-06 15:29:31 | INFO | train_svm | Fold 4: SMOTE 651 → 651 AF samples
+2026-08-06 15:29:31 | INFO | train_svm | Fold 4 | Acc=0.892 F1=0.847 AUC=0.951 Sen=0.865 Spe=0.906
+2026-08-06 15:29:31 | INFO | train_svm | Fold 5: SMOTE 612 → 612 AF samples
+2026-08-06 15:29:31 | INFO | train_svm | Fold 5 | Acc=0.953 F1=0.951 AUC=0.978 Sen=0.933 Spe=0.971
+2026-08-06 15:29:31 | INFO | train_svm | Final SVM saved → C:\vaishnav\projects\Main_Project\AFib_Project\models\svm_final.joblib
+2026-08-06 15:29:31 | INFO | main | Phase 5 done in 0.1 min
+2026-08-06 15:29:31 | INFO | main | ================================================================
+2026-08-06 15:29:31 | INFO | main | PHASE 6: XGBoost Training + Cross-Validation
+2026-08-06 15:29:31 | INFO | main | ================================================================
+2026-08-06 15:29:33 | INFO | train_xgboost | XGB Fold 1 | Acc=0.757 F1=0.810 AUC=0.766 Sen=0.773 Spe=0.725
+2026-08-06 15:29:34 | INFO | train_xgboost | XGB Fold 2 | Acc=0.931 F1=0.947 AUC=0.978 Sen=0.919 Spe=0.957
+2026-08-06 15:29:34 | INFO | train_xgboost | XGB Fold 3 | Acc=0.906 F1=0.905 AUC=0.969 Sen=0.849 Spe=0.969
+2026-08-06 15:29:34 | INFO | train_xgboost | XGB Fold 4 | Acc=0.877 F1=0.825 AUC=0.936 Sen=0.833 Spe=0.901
+2026-08-06 15:29:34 | INFO | train_xgboost | XGB Fold 5 | Acc=0.924 F1=0.923 AUC=0.973 Sen=0.933 Spe=0.914
+2026-08-06 15:29:34 | INFO | train_xgboost | Final XGBoost saved → C:\vaishnav\projects\Main_Project\AFib_Project\models\xgb_final.joblib
+2026-08-06 15:29:34 | INFO | train_xgboost | Feature importance saved → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\xgb_feature_importance.csv
+2026-08-06 15:29:34 | INFO | main | Phase 6 done in 0.0 min
+2026-08-06 15:29:34 | INFO | main | ================================================================
+2026-08-06 15:29:34 | INFO | main | PHASE 7: Evaluation
+2026-08-06 15:29:34 | INFO | main | ================================================================
+2026-08-06 15:29:35 | INFO | metrics | ROC figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\roc_curves.png
+2026-08-06 15:29:35 | INFO | metrics | Confusion matrix saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\confusion_matrix_svm.png
+2026-08-06 15:29:35 | INFO | metrics | Confusion matrix saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\confusion_matrix_xgb.png
+2026-08-06 15:29:36 | INFO | metrics | Feature importance figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\feature_importance.png
+2026-08-06 15:29:36 | INFO | metrics | CV comparison figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\cv_metrics_comparison.png
+2026-08-06 15:29:36 | INFO | main | Phase 7 done in 2.0 s
+2026-08-06 15:29:36 | INFO | main | ================================================================
+2026-08-06 15:29:36 | INFO | main | PHASE 8: Context-Aware False Positive Analysis
+2026-08-06 15:29:36 | INFO | main | ================================================================
+2026-08-06 15:29:36 | INFO | fp_analysis | FP analysis: 634 NSR segments, 63 FPs (9.9%)
+2026-08-06 15:31:03 | INFO | fp_analysis | FP-by-activity figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\fp_by_activity_xgboost.png
+2026-08-06 15:31:03 | INFO | fp_analysis | MAI vs FP figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\mai_vs_fp_xgboost.png
+2026-08-06 15:31:03 | INFO | main | Phase 8 done in 86.9 s
+2026-08-06 15:43:25 | INFO | main | ================================================================
+2026-08-06 15:43:25 | INFO | main | PHASE 1: Dataset Index Validation
+2026-08-06 15:43:25 | INFO | main | ================================================================
+2026-08-06 15:43:25 | INFO | main | Found existing index — loading from disk
+2026-08-06 15:43:25 | INFO | dataset_index | Validation findings: {'segments_wrong_length': 0, 'segments_out_of_bounds': 0, 'segments_reversed': 0, 'unknown_class_codes': [], 'segments_without_context': 0, 'overlapping_segments': 33}
+2026-08-06 15:43:25 | INFO | main | Phase 1 done in 0.0 s
+2026-08-06 15:43:25 | INFO | main | Feature matrix loaded from disk (1602 rows)
+2026-08-06 15:43:25 | INFO | main | ================================================================
+2026-08-06 15:43:25 | INFO | main | PHASE 4: MRMR Feature Selection
+2026-08-06 15:43:25 | INFO | main | ================================================================
+2026-08-06 15:43:26 | INFO | mrmr_selector | MRMR using 1381 clean segments
+2026-08-06 15:43:27 | INFO | mrmr_selector | Using mrmr-selection library
+2026-08-06 15:43:32 | INFO | mrmr_selector | MRMR selected 10 features: ['pNN50', 'MCVNN', 'CVNN', 'ShannonEn', 'pNN20', 'IQRNN', 'MadNN', 'SD1', 'RMSSD', 'SDNN']
+2026-08-06 15:43:32 | INFO | mrmr_selector | MRMR selection saved → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\selected_features.json
+2026-08-06 15:43:32 | INFO | mrmr_selector | MRMR report saved    → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\mrmr_report.csv
+2026-08-06 15:43:32 | INFO | main | Phase 4 done in 7.0 s
+2026-08-06 15:43:32 | INFO | main | ================================================================
+2026-08-06 15:43:32 | INFO | main | PHASE 5: SVM Training + Cross-Validation
+2026-08-06 15:43:32 | INFO | main | ================================================================
+2026-08-06 15:43:32 | INFO | train_svm | Training data: 1381 clean segments
+2026-08-06 15:43:32 | INFO | train_svm | Fold 1: SMOTE 562 → 562 AF samples
+2026-08-06 15:43:32 | INFO | train_svm | Fold 1 | Acc=0.728 F1=0.781 AUC=0.804 Sen=0.724 Spe=0.736
+2026-08-06 15:43:32 | INFO | train_svm | Fold 2: SMOTE 562 → 562 AF samples
+2026-08-06 15:43:32 | INFO | train_svm | Fold 2 | Acc=0.935 F1=0.950 AUC=0.977 Sen=0.924 Spe=0.957
+2026-08-06 15:43:32 | INFO | train_svm | Fold 3: SMOTE 601 → 601 AF samples
+2026-08-06 15:43:32 | INFO | train_svm | Fold 3 | Acc=0.888 F1=0.885 AUC=0.955 Sen=0.815 Spe=0.969
+2026-08-06 15:43:32 | INFO | train_svm | Fold 4: SMOTE 651 → 651 AF samples
+2026-08-06 15:43:32 | INFO | train_svm | Fold 4 | Acc=0.888 F1=0.841 AUC=0.964 Sen=0.854 Spe=0.906
+2026-08-06 15:43:32 | INFO | train_svm | Fold 5: SMOTE 612 → 612 AF samples
+2026-08-06 15:43:32 | INFO | train_svm | Fold 5 | Acc=0.945 F1=0.943 AUC=0.962 Sen=0.919 Spe=0.971
+2026-08-06 15:43:32 | INFO | train_svm | Final SVM saved → C:\vaishnav\projects\Main_Project\AFib_Project\models\svm_final.joblib
+2026-08-06 15:43:32 | INFO | main | Phase 5 done in 0.0 min
+2026-08-06 15:43:32 | INFO | main | ================================================================
+2026-08-06 15:43:32 | INFO | main | PHASE 6: XGBoost Training + Cross-Validation
+2026-08-06 15:43:32 | INFO | main | ================================================================
+2026-08-06 15:43:34 | INFO | train_xgboost | XGB Fold 1 | Acc=0.786 F1=0.838 AUC=0.771 Sen=0.827 Spe=0.703
+2026-08-06 15:43:34 | INFO | train_xgboost | XGB Fold 2 | Acc=0.931 F1=0.947 AUC=0.973 Sen=0.924 Spe=0.946
+2026-08-06 15:43:34 | INFO | train_xgboost | XGB Fold 3 | Acc=0.899 F1=0.899 AUC=0.956 Sen=0.856 Spe=0.946
+2026-08-06 15:43:35 | INFO | train_xgboost | XGB Fold 4 | Acc=0.881 F1=0.834 AUC=0.938 Sen=0.865 Spe=0.890
+2026-08-06 15:43:35 | INFO | train_xgboost | XGB Fold 5 | Acc=0.938 F1=0.938 AUC=0.975 Sen=0.948 Spe=0.929
+2026-08-06 15:43:35 | INFO | train_xgboost | Final XGBoost saved → C:\vaishnav\projects\Main_Project\AFib_Project\models\xgb_final.joblib
+2026-08-06 15:43:35 | INFO | train_xgboost | Feature importance saved → C:\vaishnav\projects\Main_Project\AFib_Project\data\features\xgb_feature_importance.csv
+2026-08-06 15:43:35 | INFO | main | Phase 6 done in 0.0 min
+2026-08-06 15:43:35 | INFO | main | ================================================================
+2026-08-06 15:43:35 | INFO | main | PHASE 7: Evaluation
+2026-08-06 15:43:35 | INFO | main | ================================================================
+2026-08-06 15:43:36 | INFO | metrics | ROC figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\roc_curves.png
+2026-08-06 15:43:36 | INFO | metrics | Confusion matrix saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\confusion_matrix_svm.png
+2026-08-06 15:43:36 | INFO | metrics | Confusion matrix saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\confusion_matrix_xgb.png
+2026-08-06 15:43:36 | INFO | metrics | Feature importance figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\feature_importance.png
+2026-08-06 15:43:37 | INFO | metrics | CV comparison figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\cv_metrics_comparison.png
+2026-08-06 15:43:37 | INFO | main | Phase 7 done in 1.8 s
+2026-08-06 15:43:37 | INFO | main | ================================================================
+2026-08-06 15:43:37 | INFO | main | PHASE 8: Context-Aware False Positive Analysis
+2026-08-06 15:43:37 | INFO | main | ================================================================
+2026-08-06 15:43:37 | INFO | fp_analysis | FP analysis: 634 NSR segments, 69 FPs (10.9%)
+2026-08-06 15:44:42 | INFO | fp_analysis | FP-by-activity figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\fp_by_activity_xgboost.png
+2026-08-06 15:44:42 | INFO | fp_analysis | MAI vs FP figure saved → C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\mai_vs_fp_xgboost.png
+2026-08-06 15:44:42 | INFO | main | Phase 8 done in 65.7 s
+2026-08-06 15:44:53 | INFO | noise_fp_analysis | Noise segments: 221 labelled, 219 with usable features (2 unreadable even for HRV)
+2026-08-06 15:47:08 | INFO | noise_fp_analysis | Noise segments: 221 labelled, 219 with usable features (2 unreadable even for HRV)
+2026-08-06 15:48:04 | INFO | noise_fp_analysis | Noise FP figure saved -> C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\noise_fp_analysis_xgb.png
+2026-08-06 15:48:04 | INFO | noise_fp_analysis | Noise FP table saved -> C:\vaishnav\projects\Main_Project\AFib_Project\data\features\noise_fp_context_xgb.csv
+2026-08-06 15:48:04 | INFO | noise_fp_analysis | Noise segments: 221 labelled, 219 with usable features (2 unreadable even for HRV)
+2026-08-06 15:48:04 | INFO | noise_fp_analysis | Noise FP figure saved -> C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures\noise_fp_analysis_svm.png
+2026-08-06 15:48:04 | INFO | noise_fp_analysis | Noise FP table saved -> C:\vaishnav\projects\Main_Project\AFib_Project\data\features\noise_fp_context_svm.csv
