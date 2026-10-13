@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large binary datasets
+Dataset/CACHET-CADB/
+Dataset/__MACOSX/
+
+# Logs
+*.log
+logs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.tmp

@@ -114,9 +114,13 @@ MODELS_DIR      = os.path.join(BASE_DIR, "models")       # Saved trained models
 
 WORKSPACE_DIR   = os.path.dirname(BASE_DIR)             # Main_Project/
 
+_candidate_cadb_1 = os.path.join(WORKSPACE_DIR, "Dataset", "CACHET-CADB")
+_candidate_cadb_2 = os.path.join(WORKSPACE_DIR, "Dataset", "cachet cadb", "CACHET-CADB")
+_default_cadb = _candidate_cadb_1 if os.path.isdir(_candidate_cadb_1) else _candidate_cadb_2
+
 CADB_ROOT = os.environ.get(
     "CADB_ROOT",
-    os.path.join(WORKSPACE_DIR, "Dataset", "cachet cadb", "CACHET-CADB"),
+    _default_cadb,
 )
 CADB_SIGNAL_DIR      = os.path.join(CADB_ROOT, "signal")
 CADB_ANNOTATION_DIR  = os.path.join(CADB_ROOT, "annotations")
