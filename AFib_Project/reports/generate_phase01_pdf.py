@@ -38,8 +38,9 @@ warnings.filterwarnings('ignore')
 # =============================================================================
 # OUTPUT PATH
 # =============================================================================
-OUTPUT_PDF = r"C:\vaishnav\projects\Main_Project\AFib_Project\Phase01_Biomedical_Fundamentals.pdf"
-FIGURES_DIR = r"C:\vaishnav\projects\Main_Project\AFib_Project\reports\figures"
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_PDF = os.path.join(PROJECT_ROOT, "Phase01_Biomedical_Fundamentals.pdf")
+FIGURES_DIR = os.path.join(PROJECT_ROOT, "reports", "figures")
 
 # =============================================================================
 # GLOBAL STYLE — Dark premium theme
